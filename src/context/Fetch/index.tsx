@@ -1,5 +1,6 @@
 import React, { createContext, useContext, useEffect, useState } from 'react';
 
+import { isDev, isStage } from '../../helpers';
 import { getToken } from '../../helpers/db';
 import { useErrorNotification } from '../../hooks/useErrorNotification';
 
@@ -29,7 +30,7 @@ const FetchProvider: React.FC<IProps> = ({ children }) => {
 	const [key, setKey] = useState('');
 	const [loading, setLoading] = useState(true);
 	const [loadingRegenerate, setLoadingRegenerate] = useState(false);
-	const OPENCART_API = 'https://appopencart-uspacy.alterego.biz.ua/opencart/v1';
+	const OPENCART_API = `https://${isDev || isStage ? 'appopencart-uspacy.alterego.biz.ua' : 'appopencart-uspacy.alterego.digital'}/opencart/v1`;
 	const { errorNotification } = useErrorNotification();
 
 	const getSecretKey = async () => {
