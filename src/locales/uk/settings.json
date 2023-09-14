@@ -1,4 +1,16 @@
 {
-  "title": "Налаштування",
-  "save": "Зберегти"
+  "secretKey": "Secret Key",
+  "regenerate": "Перегенерувати",
+  "replicate": "Копіювати",
+  "copied": "Скопійовано",
+  "forApplicationSettings": "Для налаштувань додатку",
+  "installPluginOnSite": "Встановіть модуль на ваш сайт Opencart.",
+  "instructionsForWordPress": "Інструкція по встановленю та налаштуванню модулю Opencart",
+  "here": "тут",
+  "pluginSettingsSpecifySecretKey": "В налаштуваннях вкажіть ваш Secret key, який ви бачите на цьому екрані.",
+  "configureContactForm": "Далі проведіть налаштування потрібних вам форм \"Contact Form 7\".",
+  "isThereNotEnoughFunctionalityForIntegration": "Не вистачає функціоналу по даній інтеграції чи необхідний інший додаток?",
+  "teamIsInTouch": "Команда AlterEGO на зв’язку",
+  "or": "або",
+  "requestExecutionError": "Помилка виконання запиту"
 }
