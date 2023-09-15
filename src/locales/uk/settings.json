@@ -12,5 +12,6 @@
   "isThereNotEnoughFunctionalityForIntegration": "Не вистачає функціоналу по даній інтеграції чи необхідний інший додаток?",
   "teamIsInTouch": "Команда AlterEGO на зв’язку",
   "or": "або",
-  "requestExecutionError": "Помилка виконання запиту"
+  "requestExecutionError": "Помилка виконання запиту",
+  "downloadOpencartPlugin": "Cкачайте модуль Opencart "
 }

@@ -49,6 +49,12 @@ const Description = () => {
 				{t('forApplicationSettings')}:
 			</Typography>
 			<Typography>
+				{t('downloadOpencartPlugin')}
+				<a download href="https://appopencart-uspacy.alterego.digital/alteregouspacyintegrations.ocmod.zip">
+					alterego-uspacy-integrations
+				</a>
+			</Typography>
+			<Typography>
 				{t('installPluginOnSite')}
 				<br />
 				{t('instructionsForWordPress')}{' '}

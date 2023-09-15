@@ -12,5 +12,6 @@
   "isThereNotEnoughFunctionalityForIntegration": "Jeśli brakuje funkcji w tej integracji lub potrzebny jest inny program?",
   "teamIsInTouch": "КZespół AlterEGO jest dostępny",
   "or": "lub",
-  "requestExecutionError": "Błąd wykonania żądania"
+  "requestExecutionError": "Błąd wykonania żądania",
+  "downloadOpencartPlugin": "Pobierz moduł Opencart "
 }
