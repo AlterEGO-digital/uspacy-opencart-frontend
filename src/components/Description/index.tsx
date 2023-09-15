@@ -4,6 +4,7 @@ import Typography from '@mui/material/Typography';
 import React, { useMemo } from 'react';
 import { useTranslation } from 'react-i18next';
 
+import { DOMAIN } from '../../helpers';
 import { useUserSettingsContext } from '../../Providers';
 
 const Description = () => {
@@ -50,7 +51,7 @@ const Description = () => {
 			</Typography>
 			<Typography>
 				{t('downloadOpencartPlugin')}
-				<a download href="https://appopencart-uspacy.alterego.digital/alteregouspacyintegrations.ocmod.zip">
+				<a download href={`${DOMAIN}/alteregouspacyintegrations.ocmod.zip`}>
 					alterego-uspacy-integrations
 				</a>
 			</Typography>
