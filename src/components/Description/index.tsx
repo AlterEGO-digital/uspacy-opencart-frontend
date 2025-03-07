@@ -68,7 +68,7 @@ const Description = () => {
 				{t('isThereNotEnoughFunctionalityForIntegration')}
 				<br />
 				{t('teamIsInTouch')} –<a href="tel:+380507007572"> +38 050 700 75 72</a> {t('or')}
-				<a href="mailto:y.andrusyak@alterego.digital"> y.andrusyak@alterego.digital</a>
+				<a href="mailto:mail@alterego.digital"> mail@alterego.digital</a>
 			</Typography>
 		</Box>
 	);
